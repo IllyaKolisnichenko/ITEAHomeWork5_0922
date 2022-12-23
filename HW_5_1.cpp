@@ -146,7 +146,6 @@ public:
 	};
 
 	string findRandomArrayAnswer(string array[], int size) {
-;
 
 		srand(time(NULL));
 		int random_position = rand() % size;
